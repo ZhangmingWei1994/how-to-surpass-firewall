@@ -1,0 +1,16 @@
+# how-to-surpass-firewall
+Solidot：国内屏蔽CDN附带屏蔽数千家网站
+作者：卢松松博客来源：卢松松博客2014-11-21 09:39:00
+CDN服务商EdgeCast的域名被中国屏蔽，连带着数千家网站被屏蔽了;EdgeCast官方博客证实已被加入到了过滤名单，原因未知。
+
+屏蔽CDN CDN服务商 CDN域名解析
+
+来自Solidot消息：CDN服务商EdgeCast的域名被中国屏蔽，连带着数千家网站被屏蔽了；EdgeCast官方博客证实已被加入到了过滤名单，原因未知。
+
+自从gravatar的CDN服务商edgecast的一个用于CDN解析的域名在中国大陆被屏蔽以来，很多使用wordpress的网站受到影响，11月17日edgecast的官方博客更新一篇博文通知其客户进入edgecast的CDN面板，里面有详细的解决方案告诉客户如何使影响降到最低。
+
+不过我刚刚发现在Google DNS下可以nslookup到正确的IP地址，不受影响，我不对此作任何判断，但nslookup时可以解析到正确地址。
+
+以下来自Solidot的完整消息：
+
+屏蔽CDN可能是防火长城的大规模杀伤性武器，因为这会附带影响大量使用该CDN服务的网站。在Google被屏蔽之后，使用托管在Google上的字体或脚本的网站出现了加载或访问问题，如使用reCAPTCHA防机器人的网站不能正常显示验证码。现在，防火长城DNS投毒了CDN服务商EdgeCast的域名*edgecastcdn.net，连带着数千家网站被屏蔽了，其中包括了非常无辜的开源内容管理系统drupal.org，索尼移动，大西洋月刊，火狐插件（addons.cdn.mozilla.net托管在 EdgeCast上），Gravatar、speedtest.net，等等。EdgeCast官方博客证实它被防火长城加入到了过滤名单，原因未知。
